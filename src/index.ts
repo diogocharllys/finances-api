@@ -23,6 +23,10 @@ app.get("/", (_, res) => {
 });
 
 const PORT = process.env.PORT || 3333;
-app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
+
+// Não inicia o servidor durante os testes (supertest usa a app diretamente).
+if (process.env.NODE_ENV !== "test") {
+  app.listen(PORT, () => console.log(`Server running on port http://localhost:${PORT}`));
+}
 
 export default app;
