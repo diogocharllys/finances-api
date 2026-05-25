@@ -15,6 +15,10 @@
   <img src="https://img.shields.io/badge/deploy-ready-success" alt="Deploy ready"/>
 </p>
 
+<p align="center">
+  <a href="https://github.com/diogocharllys/finances-api/actions/workflows/ci.yml"><img src="https://github.com/diogocharllys/finances-api/actions/workflows/ci.yml/badge.svg" alt="CI"/></a>
+</p>
+
 > 🐳 **Pronta para deploy:** containerizada com Docker e configurada para
 > rodar em qualquer plataforma (ex.: Railway). Sobe o schema do banco
 > automaticamente no primeiro arranque. Veja [Como rodar](#-como-rodar).
