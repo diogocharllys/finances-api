@@ -12,7 +12,12 @@
   <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white" alt="MySQL"/>
   <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white" alt="Jest"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License"/>
+  <img src="https://img.shields.io/badge/deploy-ready-success" alt="Deploy ready"/>
 </p>
+
+> 🐳 **Pronta para deploy:** containerizada com Docker e configurada para
+> rodar em qualquer plataforma (ex.: Railway). Sobe o schema do banco
+> automaticamente no primeiro arranque. Veja [Como rodar](#-como-rodar).
 
 ---
 
